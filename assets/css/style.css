@@ -1,0 +1,78 @@
+body {
+	background-color: black;
+}
+
+.page-header {
+	background-color: black;
+	margin-top: 0px;
+	border-bottom: black;
+}
+
+#wulogo {
+	width: 200px;
+	height: 200px;
+}
+
+#wu_head {
+	font-size: 140px;
+	margin: 0px 80px;
+	color: #FFC20E;
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+.panel {
+	margin: 0px 200px;
+	height: 400px;
+	background-color: black;
+	color: #FFC20E;
+	border-color: #FFC20E;
+}
+
+#top-text {
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+#word_container {
+	padding: 30px 0px;
+	margin-left: 20px;
+
+}
+
+.letter_container {
+	width: 30px;
+	height: 30px;
+	border-bottom: 2px solid #FFC20E;
+	float: left;
+	margin: 0px 5px;
+	text-align: center;
+}
+.empty_letter_container {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 0px 5px;
+}
+#guesses_left {
+	clear: both;
+	font-family: 'Permanent Marker', cursive;
+	margin: 20px 0px 0px 20px;
+	font-size: 20px;
+}
+#missed_guess_container {
+	margin-left:60px;
+	font-size: 30px;
+
+}
+#result_text {
+	/*width: 100px;*/
+	height: 100px;
+	text-align: center;
+	margin: 10px 40px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+
+}
